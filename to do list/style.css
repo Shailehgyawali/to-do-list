@@ -1,0 +1,73 @@
+body {
+    background: #e0dddd;
+    font-family: Arial;
+}
+
+.head {
+    text-align: center;
+    margin: 20px;
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lists {
+    padding: 8px;
+    font-size: 18px;
+}
+
+#submit {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.div2 {
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+    background: #efe3e3;
+    border-radius: 10px;
+   
+}
+
+.work {
+    list-style: none;
+    padding: 10px;
+}
+
+.work li {
+    background: #9a9a9a;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dark {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+}
+
+.bulb {
+    font-size: 28px;
+    cursor: pointer;
+}
